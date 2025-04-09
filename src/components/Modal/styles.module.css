@@ -7,8 +7,9 @@
     width: 100%;
 }
 
-.container {
+.backdrop {
     align-items: center;
+    background-color: var(--backdrop-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,16 +21,7 @@
     width: 100%;
 }
 
-.backdrop {
-    background-color: var(--backdrop-color);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.contentArea {
+.modal {
     background-color: var(--primary-background-color);
     border-radius: 0.5rem;
     max-width: 30rem;
@@ -38,7 +30,7 @@
     width: 100%;
 }
 
-.topArea {
+.modalHeader {
     display: flex;
     justify-content: right;
 }

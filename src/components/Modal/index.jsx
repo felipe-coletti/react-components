@@ -12,7 +12,7 @@ const Modal = ({ isOpen, onClose, children }) => {
             }
 
             window.addEventListener('keydown', handleEsc)
-        
+
             return () => {
                 window.removeEventListener('keydown', handleEsc)
             }
@@ -21,14 +21,19 @@ const Modal = ({ isOpen, onClose, children }) => {
 
     if (!isOpen) return null
 
+    const handleOverlayClick = (e) => {
+        if (e.target === e.currentTarget) {
+            onClose?.()
+        }
+    }
+
     return (
         <div className={styles.modalContainer}>
-            <div className={styles.container}>
-                <div className={styles.backdrop} onClick={onClose}></div>
-                <div className={styles.contentArea}>
-                    <div className={styles.topArea}>
-                        <button className={styles.button} title="Fechar" onClick={onClose}>
-                            <Icon icon="tabler:x" />
+            <div className={styles.backdrop} onClick={handleOverlayClick}>
+                <div className={styles.modal}>
+                    <div className={styles.modalHeader}>
+                        <button className={styles.button} title='Fechar' onClick={onClose}>
+                            <Icon icon='tabler:x' />
                         </button>
                     </div>
                     {children}
