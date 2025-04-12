@@ -30,9 +30,11 @@
     width: 100%;
 }
 
-.modalHeader {
+.closeButtonWrapper {
     display: flex;
-    justify-content: right;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem;
 }
 
 .button {

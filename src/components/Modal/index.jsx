@@ -31,7 +31,7 @@ const Modal = ({ isOpen, onClose, children }) => {
         <div className={styles.modalContainer}>
             <div className={styles.backdrop} onClick={handleOverlayClick}>
                 <div className={styles.modal}>
-                    <div className={styles.modalHeader}>
+                    <div className={styles.closeButtonWrapper}>
                         <button className={styles.button} title='Fechar' onClick={onClose}>
                             <Icon icon='tabler:x' />
                         </button>
