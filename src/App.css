@@ -7,10 +7,10 @@
 }
 
 .button {
-    background-color: var(--highlight-color);
+    background-color: var(--color-highlight);
     border: none;
     border-radius: 0.25rem;
-    color: var(--primary-background-color);
+    color: var(--color-primary-background);
     cursor: pointer;
     font-size: 0.875rem;
     font-weight: bold;
@@ -24,12 +24,12 @@
 }
 
 .title {
-    color: var(--primary-text-color);
+    color: var(--color-primary-text);
     font-size: 1.5rem;
     text-align: center;
 }
 
 .paragraph {
-    color: var(--secondary-text-color);
+    color: var(--color-secondary-text);
     font-size: 0.875rem;
 }

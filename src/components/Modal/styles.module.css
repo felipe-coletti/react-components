@@ -9,7 +9,7 @@
 
 .backdrop {
     align-items: center;
-    background-color: var(--backdrop-color);
+    background-color: var(--color-backdrop);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .modal {
-    background-color: var(--primary-background-color);
+    background-color: var(--color-primary-background);
     border-radius: 0.5rem;
     max-width: 30rem;
     padding: 1.5rem;
@@ -40,7 +40,7 @@
     background-color: transparent;
     border: none;
     border-radius: 50%;
-    color: var(--primary-text-color);
+    color: var(--color-primary-text);
     cursor: pointer;
     display: flex;
     font-size: 1.25rem;
@@ -49,5 +49,5 @@
 }
 
 .button:hover {
-    background-color: var(--secondary-background-color);
+    background-color: var(--color-secondary-background);
 }

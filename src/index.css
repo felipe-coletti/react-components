@@ -1,10 +1,10 @@
 :root {
-    --primary-text-color: #000;
-    --secondary-text-color: #585858;
-    --highlight-color: #0072e3;
-    --backdrop-color: #00000040;
-    --primary-background-color: #fff;
-    --secondary-background-color: #f5f5f5;
+    --color-backdrop: #00000040;
+    --color-highlight: #0072e3;
+    --color-primary-background: #fff;
+    --color-primary-text: #000;
+    --color-secondary-background: #f5f5f5;
+    --color-secondary-text: #585858;
 }
 
 * {
@@ -15,5 +15,5 @@
 }
 
 body {
-    background-color: var(--primary-background-color);
+    background-color: var(--color-primary-background);
 }
