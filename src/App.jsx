@@ -1,23 +1,17 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Modal from './components/Modal'
+import { DrawerPage, Home, ModalPage, RatingPage } from './pages'
 
 function App() {
-    const [open, setOpen] = useState(false)
-
-    const openModal = () => setOpen(true)
-    const closeModal = () => setOpen(false)
-
-    return(
-        <div className='container'>
-            <button className='button' onClick={openModal}>Abrir modal</button>
-            <Modal isOpen={open} onClose={closeModal}>
-                <div className='content-area'>
-                    <h1 className='title'>Título</h1>
-                    <p className='paragraph'>Texto</p>
-                </div>
-            </Modal>
-        </div>
+    return (
+        <Router>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/drawer/*' element={<DrawerPage />} />
+                <Route path='/modal' element={<ModalPage />} />
+                <Route path='/rating' element={<RatingPage />} />
+            </Routes>
+        </Router>
     )
 }
 

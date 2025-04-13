@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.input {
+    display: none;
+}
+
+.filledStar {
+    color: var(--color-star);
+}
+
+.unfilledStar {
+    color: var(--color-border);
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+.filledStar,
+.unfilledStar {
+    display: flex;
+    font-size: 1.25rem;
+}
