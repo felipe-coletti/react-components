@@ -1,4 +1,4 @@
-# Component Catalog
+# React Components
 
 This project is a simple catalog of ready-to-use React components originally developed in separate repositories.
 
