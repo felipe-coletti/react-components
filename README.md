@@ -38,14 +38,12 @@ Visit `http://localhost:5173` to explore the catalog.
 ```
 src/
   components/
-    Drawer/
-    Modal/
-    Rating/
+    Button/
+    ...
   pages/
-    Drawer/
     Home/
-    Modal/
-    Rating/
+    Button/
+    ...
   App.jsx
 ```
 
