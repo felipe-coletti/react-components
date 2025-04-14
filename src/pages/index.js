@@ -1,4 +1,5 @@
 export { DrawerPage } from './Drawer'
 export { Home } from './Home'
+export { LinkPage } from './Link'
 export { ModalPage } from './Modal'
 export { RatingPage } from './Rating'

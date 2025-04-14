@@ -9,6 +9,9 @@ export const Home = () => {
                     <Link href='/drawer'>Drawer</Link>
                 </li>
                 <li>
+                    <Link href='/link'>Link</Link>
+                </li>
+                <li>
                     <Link href='/modal'>Modal</Link>
                 </li>
                 <li>
