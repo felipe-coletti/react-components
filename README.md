@@ -46,7 +46,3 @@ src/
     ...
   App.jsx
 ```
-
-## License
-
-MIT
