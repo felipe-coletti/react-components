@@ -5,6 +5,7 @@ This project is a simple catalog of ready-to-use React components originally dev
 ## Components
 
 -   Drawer
+-   Link
 -   Modal
 -   Rating
 
