@@ -1,25 +1,25 @@
 :root {
-    --color-backdrop: #00000040;
-    --color-border: #ccc;
-    --color-accent: #0072e3;
-    --color-primary-background: #fff;
-    --color-primary-text: #000;
-    --color-secondary-background: #f5f5f5;
-    --color-secondary-text: #585858;
-    --color-star: #ffb703;
+	--color-accent: #0072e3;
+	--color-backdrop: #00000040;
+	--color-background: #fff;
+	--color-border: #ccc;
+	--color-hover: #f5f5f5;
+	--color-star: #ffb703;
+	--color-text-primary: #000;
+	--color-text-secondary: #585858;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 body {
-    background-color: var(--color-primary-background);
+	background-color: var(--color-background);
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }

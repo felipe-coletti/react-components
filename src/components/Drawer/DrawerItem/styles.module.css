@@ -1,24 +1,24 @@
 .item {
-    display: flex;
+	display: flex;
 }
 
 .selectedLink {
-    background-color: var(--color-accent);
-    color: var(--color-primary-background);
+	background-color: var(--color-accent);
+	color: var(--color-background);
 }
 
 .unselectedLink {
-    color: var(--color-secondary-text);
+	color: var(--color-text-secondary);
 }
 
 .unselectedLink:hover {
-    background-color: var(--color-secondary-background);
+	background-color: var(--color-hover);
 }
 
 .selectedLink,
 .unselectedLink {
-    font-size: 0.875rem;
-    padding: 1rem;
-    text-decoration: none;
-    width: 100%;
+	font-size: 0.875rem;
+	padding: 1rem;
+	text-decoration: none;
+	width: 100%;
 }

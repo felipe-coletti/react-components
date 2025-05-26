@@ -1,46 +1,46 @@
 .container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 1.5rem;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 1.5rem;
 }
 
 .button {
-    background-color: var(--color-accent);
-    border: none;
-    border-radius: 0.25rem;
-    color: var(--color-primary-background);
-    cursor: pointer;
-    font-size: 0.875rem;
-    font-weight: bold;
-    padding: 0.75rem;
+	background-color: var(--color-accent);
+	border: none;
+	border-radius: 0.25rem;
+	color: var(--color-background);
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: bold;
+	padding: 0.75rem;
 }
 
 .content-area {
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
 }
 
 .title {
-    color: var(--color-primary-text);
-    font-size: 1.5rem;
+	color: var(--color-text-primary);
+	font-size: 1.5rem;
 }
 
 .content-area .title {
-    text-align: center;
+	text-align: center;
 }
 
 .rating-area {
-    align-items: center;
-    display: flex;
-    gap: 0.75rem;
+	align-items: center;
+	display: flex;
+	gap: 0.75rem;
 }
 
 .paragraph {
-    color: var(--color-secondary-text);
-    font-size: 0.875rem;
+	color: var(--color-text-secondary);
+	font-size: 0.875rem;
 }
